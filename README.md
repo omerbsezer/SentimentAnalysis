@@ -2,6 +2,10 @@
 
 Sentiment Analysis is an analysis of the sentence, text at the document that gives us the opinion of the writer. In this project, it will be implemented a model which inputs a sentence and finds the most appropriate emoji to be used with this sentence. Code is adapted from Andrew Ng's Course 'Sequential Models'.
 
+## Results
+
+![resultsemoji](https://user-images.githubusercontent.com/10358317/43802983-1fe753e4-9aa0-11e8-9b9e-b87fe91e0c18.jpg)
+
 ## DataSet
 We have a tiny dataset (X, Y) where:
 
