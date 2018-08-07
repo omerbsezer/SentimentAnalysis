@@ -1,6 +1,6 @@
 # Sentiment Analysis
 
-Sentiment Analysis is an analysis of the sentence, text at the document that gives us the opinion of the writer. In this project, it will be implemented a model which inputs a sentence and finds the most appropriate emoji to be used with this sentence. Code is adapted from Andrew Ng's Course 'Sequential models'.
+Sentiment Analysis is an analysis of the sentence, text at the document that gives us the opinion of the writer. In this project, it will be implemented a model which inputs a sentence and finds the most appropriate emoji to be used with this sentence. Code is adapted from Andrew Ng's Course 'Sequential Models'.
 
 ## DataSet
 We have a tiny dataset (X, Y) where:
@@ -14,6 +14,7 @@ We have a tiny dataset (X, Y) where:
 
 Glove 50 dimension, 40000 words of dictionary file is used for word embeddings. It should be downloaded from  https://www.kaggle.com/watts2/glove6b50dtxt (file size = ~168MB))
 
+
 * word_to_index: dictionary mapping from words to their indices in the vocabulary (400,001 words, with the valid indices ranging from 0 to 400,000)
 * index_to_word: dictionary mapping from indices to their corresponding words in the vocabulary
 * word_to_vec_map: dictionary mapping words to their GloVe vector representation.
@@ -21,4 +22,11 @@ Glove 50 dimension, 40000 words of dictionary file is used for word embeddings. 
 ## LSTM
 
 LSTM structure is used for classification.
+
+<img width="833" alt="emojifier-v2" src="https://user-images.githubusercontent.com/10358317/43802664-22c08c8a-9a9f-11e8-83e1-fea4bf334f6e.png">
+
+
+## References
+
+* Andrew Ng, Sequential Models Course, Deep Learning Specialization
 
